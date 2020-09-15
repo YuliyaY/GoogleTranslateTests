@@ -53,10 +53,6 @@ export class MainPage {
         return element(by.css('div.tlid-input-button-docs'))
     }
 
-/*     get docsBrowseButton(): ElementFinder {
-        return element(by.css('label.tlid-select-file-button'))
-    } */
-
     get fileInput(): ElementFinder {
         return element(by.css('input[type="file"]'))
     }

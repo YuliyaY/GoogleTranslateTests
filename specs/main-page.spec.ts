@@ -1,4 +1,4 @@
-import { browser, Key, element, by } from "protractor";
+import { browser } from "protractor";
 import { MainPage } from "../pageobjects/main-page";
 
 describe("Text translation functions", () => {
